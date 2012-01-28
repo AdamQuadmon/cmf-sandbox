@@ -37,6 +37,7 @@ $loader->registerNamespaces(array(
     'Knp\\Bundle'      => __DIR__.'/../vendor/bundles',
 
     'Sonata'           => __DIR__.'/../vendor/bundles',
+    'Application'      => __DIR__.'/../src',
     'Acme'             => __DIR__.'/../src',
 
 ));

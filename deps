@@ -93,3 +93,12 @@
 [TreeBundle]
     git=git://github.com/symfony-cmf/TreeBundle.git
     target=/bundles/Symfony/Cmf/Bundle/TreeBundle
+
+
+[SonataMediaBundle]
+    git=https://github.com/sonata-project/SonataMediaBundle.git
+    target=/bundles/Sonata/MediaBundle
+
+[SonataEasyExtendsBundle]
+    git=https://github.com/sonata-project/SonataEasyExtendsBundle.git
+    target=/bundles/Sonata/EasyExtendsBundle

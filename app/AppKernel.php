@@ -36,6 +36,11 @@ class AppKernel extends Kernel
             new Sandbox\TestBundle\SandboxTestBundle(),
             new Sandbox\AdminBundle\SandboxAdminBundle(),
 
+            // Sonata Bundles
+            new Sonata\MediaBundle\SonataMediaBundle(),
+            new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
+            new Sonata\EasyExtendsBundle\SonataEasyExtendsBundle(),
+
             // admin bundle
             new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Sonata\AdminBundle\SonataAdminBundle(),
