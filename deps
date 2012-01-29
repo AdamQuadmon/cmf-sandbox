@@ -15,6 +15,7 @@
 [DoctrineFixturesBundle]
     git=http://github.com/doctrine/DoctrineFixturesBundle.git
     target=/bundles/Doctrine/Bundle/FixturesBundle
+    version=origin/2.0
 
 [doctrine-data-fixtures]
     git=http://github.com/doctrine/data-fixtures.git
@@ -102,3 +103,11 @@
 [SonataEasyExtendsBundle]
     git=https://github.com/sonata-project/SonataEasyExtendsBundle.git
     target=/bundles/Sonata/EasyExtendsBundle
+
+[Imagine]:
+    git=http://github.com/avalanche123/Imagine.git
+    target=/imagine
+
+[Gaufrette]
+    git=http://github.com/KnpLabs/Gaufrette.git
+    target=/gaufrette

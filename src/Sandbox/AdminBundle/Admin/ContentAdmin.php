@@ -10,8 +10,6 @@ use Sonata\AdminBundle\Show\ShowMapper;
 
 use Knp\Menu\ItemInterface as MenuItemInterface;
 
-use Sandbox\AdminBundle\Document\EditableStaticContent;
-
 class ContentAdmin extends Admin
 {
     protected function configureListFields(ListMapper $listMapper)

@@ -39,6 +39,8 @@ $loader->registerNamespaces(array(
     'Sonata'           => __DIR__.'/../vendor/bundles',
     'Application'      => __DIR__.'/../src',
     'Acme'             => __DIR__.'/../src',
+    'Imagine'          => __DIR__.'/../vendor/imagine/lib',
+    'Gaufrette'        => __DIR__.'/../vendor/gaufrette/src',
 
 ));
 $loader->registerPrefixes(array(
